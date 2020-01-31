@@ -142,20 +142,20 @@ h2,
 h3,
 h4 {
   font-family: 'B612', sans-serif;
-  color: #b7f0ad;
+  color: #9BE8FF;
   margin: 1% 0;
 }
 h1 {
-  font-size: 1.2rem;
+  font-size: 2.4rem;
 }
 h2 {
-  font-size: 1.1rem;
+  font-size: 2rem;
 }
 h3 {
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 h4 {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 p {
   margin-bottom: 1%;
@@ -169,13 +169,118 @@ nav {
   height: 10vh;
   display: flex;
   justify-content: space-between;
-  width: 90%;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
+  background-color: #808080;
 }
 nav a {
   text-decoration: none;
   font-size: 1rem;
   font-family: 'B612', sans-serif;
   padding-top: 3%;
-  color: #ccffcb;
+  color: #BAE8B9;
+}
+.header-banner {
+  height: 40vh;
+  background-image: url(/images/header.jpg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 3% 0;
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.header-banner h2,
+.header-banner p,
+.header-banner button {
+  width: 60%;
+}
+.marketing-middle {
+  border-top: 3px inset #96C58E;
+  display: flex;
+  flex-direction: column;
+}
+.marketing-middle h2 {
+  margin-top: 3%;
+}
+.marketing-middle p {
+  margin-top: 2%;
+}
+.marketing-middle .middle-img1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3%;
+}
+.marketing-middle .middle-img1 img {
+  width: 300px;
+  height: 300px;
+}
+.marketing-middle .middle-img1 p {
+  width: 50%;
+  padding-left: 3%;
+}
+.marketing-middle .middle-img2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3%;
+}
+.marketing-middle .middle-img2 img {
+  width: 300px;
+  height: 300px;
+}
+.marketing-middle .middle-img2 p {
+  width: 50%;
+  padding-left: 3%;
+}
+.features-headline {
+  border-top: 3px inset #96C58E;
+  margin-top: 3%;
+  padding-top: 3%;
+  text-align: center;
+  height: fit-content;
+}
+.features-headline h2 {
+  font-size: 2rem;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+}
+.features .feature-box {
+  width: 25%;
+  padding-top: 5%;
+  margin-right: 4%;
+}
+.features .feature-box p {
+  margin-top: 3%;
+}
+footer {
+  border-top: 3px inset #96C58E;
+  margin-top: 3%;
+  display: flex;
+}
+footer h4 {
+  font-size: 1rem;
+}
+footer a,
+footer p {
+  font-size: 0.8rem;
+}
+footer .footer-left {
+  display: flex;
+  width: 40%;
+  margin: 3%;
+}
+footer .footer-left .footer-about-links {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-left .footer-about-links a {
+  padding-top: 3%;
+}
+footer .footer-right {
+  width: 40%;
+  margin: 3%;
 }
