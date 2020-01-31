@@ -165,3 +165,16 @@ p {
   width: 80%;
   margin: 0, auto;
 }
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'B612', sans-serif;
+  padding-top: 3%;
+}
