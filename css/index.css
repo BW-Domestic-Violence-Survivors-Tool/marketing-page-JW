@@ -164,14 +164,25 @@ p {
 .main-container {
   padding: 0 6%;
 }
+.about-h2 {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  padding-top: 8%;
+}
+.about-h3 {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding-top: 11%;
+  padding-right: 6%;
+}
 nav {
   height: 10vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0 auto;
   position: sticky;
   top: 0;
-  background-color: #808080;
+  background-color: seashell;
 }
 nav a {
   text-decoration: none;
@@ -259,10 +270,9 @@ nav a {
 }
 .about-header {
   height: 60vh;
-  width: 90%;
   background-image: url(/images/team.jpg);
   background-size: cover;
-  margin: 6% 5%;
+  margin: 6% 0;
 }
 .about-header h1 {
   background-color: seashell;
@@ -283,7 +293,6 @@ nav a {
   margin: 3%;
 }
 .team {
-  margin-left: 3%;
   display: flex;
   flex-direction: column;
 }
@@ -324,6 +333,7 @@ nav a {
   font-size: 1.4rem;
   line-height: 1.9rem;
   padding-top: 11%;
+  padding-right: 6%;
 }
 .team .web .alex p {
   padding-top: 14%;
@@ -335,12 +345,11 @@ nav a {
   font-size: 1.4rem;
   line-height: 1.9rem;
   padding-top: 11%;
-}
-.team .web .jenn img {
-  margin-left: 5%;
+  padding-right: 6%;
 }
 .team .web .jenn p {
   padding-top: 14%;
+  padding-left: 3%;
 }
 .team .front-end {
   display: flex;
@@ -358,6 +367,7 @@ nav a {
   font-size: 1.4rem;
   line-height: 1.9rem;
   padding-top: 11%;
+  padding-right: 6%;
 }
 .team .front-end .shawn p {
   padding-top: 14%;
@@ -369,9 +379,10 @@ nav a {
   font-size: 1.4rem;
   line-height: 1.9rem;
   padding-top: 11%;
+  padding-right: 6%;
 }
 .team .front-end .kem img {
-  margin-left: 0;
+  margin-left: 3%;
 }
 .team .front-end .kem p {
   padding-top: 14%;

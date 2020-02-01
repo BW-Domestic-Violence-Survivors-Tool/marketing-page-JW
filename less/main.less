@@ -79,10 +79,9 @@
 //begin about.html styling
 .about-header {
     height: 60vh;
-    width: 90%;
     background-image: url(/images/team.jpg);
     background-size: cover;
-    margin: 6% 5%;
+    margin: 6% 0;
     // border: 4px inset @accent-color;
     h1 {
         background-color: seashell;
@@ -99,7 +98,7 @@
     margin: 3%;
 }
 .team {
-    margin-left: 3%;
+    // margin-left: 3%;
     display: flex;
     flex-direction: column;
     h2, h3 {
@@ -108,15 +107,10 @@
     .james {
         display: flex;
         h2 {
-            font-size: 1.6rem;
-            line-height: 1.9rem;
-            padding-top: 8%;
+            .about-h2();
         }
         h3 {
-            font-size: 1.4rem;
-            line-height: 1.9rem;
-            padding-top: 11%;
-            padding-right: 6%;
+            .about-h3();
         }
         p {
             padding-top: 14%;
@@ -126,16 +120,12 @@
         display: flex;
         flex-direction: column;
         h2 {
-            font-size: 1.6rem;
-            line-height: 1.9rem;
-            padding-top: 8%;
+            .about-h2();
         }
         .alex {
             display: flex;
             h3 {
-                font-size: 1.4rem;
-                line-height: 1.9rem;
-                padding-top: 11%;
+                .about-h3();
             }
             p {
                 padding-top: 14%;
@@ -144,15 +134,11 @@
         .jenn {
             display: flex;
             h3 {
-                font-size: 1.4rem;
-                line-height: 1.9rem;
-                padding-top: 11%;
-            }
-            img {
-                margin-left: 5%;
+                .about-h3();
             }
             p {
                 padding-top: 14%;
+                padding-left: 3%;
             }
         }
     }
@@ -160,16 +146,12 @@
         display: flex;
         flex-direction: column;
         h2 {
-            font-size: 1.6rem;
-            line-height: 1.9rem;
-            padding-top: 8%;
+            .about-h2();
         }
         .shawn {
             display: flex;
             h3 {
-                font-size: 1.4rem;
-                line-height: 1.9rem;
-                padding-top: 11%;
+                .about-h3();
             }
             p {
                 padding-top: 14%;
@@ -178,12 +160,10 @@
         .kem {
             display: flex;
             h3 {
-                font-size: 1.4rem;
-                line-height: 1.9rem;
-                padding-top: 11%;
+                .about-h3();
             }
             img {
-                margin-left: 0;
+                margin-left: 3%;
             }
             p {
                 padding-top: 14%;
@@ -193,15 +173,10 @@
     .lora {
         display: flex;
         h2 {
-            font-size: 1.6rem;
-            line-height: 1.9rem;
-            padding-top: 8%;
+            .about-h2();
         }
         h3 {
-            font-size: 1.4rem;
-            line-height: 1.9rem;
-            padding-top: 11%;
-            padding-right: 6%;
+            .about-h3();
         }
         p {
             padding-top: 14%;
