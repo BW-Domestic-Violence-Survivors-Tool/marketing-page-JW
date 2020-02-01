@@ -162,8 +162,7 @@ p {
   line-height: 1.1rem;
 }
 .main-container {
-  width: 80%;
-  margin: 0, auto;
+  padding: 0 6%;
 }
 nav {
   height: 10vh;
@@ -184,18 +183,20 @@ nav a {
 .header-banner {
   height: 40vh;
   background-image: url(/images/header.jpg);
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 20% left;
   margin: 3% 0;
   padding-bottom: 3%;
   display: flex;
   flex-direction: column;
 }
 .header-banner h2,
-.header-banner p,
+.header-banner p {
+  width: 50%;
+  background-color: seashell;
+}
 .header-banner button {
-  width: 60%;
+  width: 50%;
 }
 .marketing-middle {
   border-top: 3px inset #96C58E;
@@ -283,4 +284,140 @@ footer .footer-left .footer-about-links a {
 footer .footer-right {
   width: 40%;
   margin: 3%;
+}
+.about-header {
+  height: 60vh;
+  width: 90%;
+  background-image: url(/images/team.jpg);
+  background-size: cover;
+  margin: 6% 5%;
+}
+.about-header h1 {
+  background-color: seashell;
+  text-align: center;
+}
+.about-header p {
+  background-color: seashell;
+  width: 45%;
+}
+.james img,
+.alex img,
+.jenn img,
+.shawn img,
+.kem img,
+.lora img {
+  width: 200px;
+  height: 200px;
+  margin: 3%;
+}
+.team {
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.team h2,
+.team h3 {
+  margin-top: 3%;
+}
+.team .james {
+  display: flex;
+}
+.team .james h2 {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  padding-top: 8%;
+}
+.team .james h3 {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding-top: 11%;
+  padding-right: 6%;
+}
+.team .james p {
+  padding-top: 14%;
+}
+.team .web {
+  display: flex;
+  flex-direction: column;
+}
+.team .web h2 {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  padding-top: 8%;
+}
+.team .web .alex {
+  display: flex;
+}
+.team .web .alex h3 {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding-top: 11%;
+}
+.team .web .alex p {
+  padding-top: 14%;
+}
+.team .web .jenn {
+  display: flex;
+}
+.team .web .jenn h3 {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding-top: 11%;
+}
+.team .web .jenn img {
+  margin-left: 5%;
+}
+.team .web .jenn p {
+  padding-top: 14%;
+}
+.team .front-end {
+  display: flex;
+  flex-direction: column;
+}
+.team .front-end h2 {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  padding-top: 8%;
+}
+.team .front-end .shawn {
+  display: flex;
+}
+.team .front-end .shawn h3 {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding-top: 11%;
+}
+.team .front-end .shawn p {
+  padding-top: 14%;
+}
+.team .front-end .kem {
+  display: flex;
+}
+.team .front-end .kem h3 {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding-top: 11%;
+}
+.team .front-end .kem img {
+  margin-left: 0;
+}
+.team .front-end .kem p {
+  padding-top: 14%;
+}
+.team .lora {
+  display: flex;
+}
+.team .lora h2 {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  padding-top: 8%;
+}
+.team .lora h3 {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding-top: 11%;
+  padding-right: 6%;
+}
+.team .lora p {
+  padding-top: 14%;
 }
