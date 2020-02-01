@@ -257,34 +257,6 @@ nav a {
 .features .feature-box p {
   margin-top: 3%;
 }
-footer {
-  border-top: 3px inset #96C58E;
-  margin-top: 3%;
-  display: flex;
-}
-footer h4 {
-  font-size: 1rem;
-}
-footer a,
-footer p {
-  font-size: 0.8rem;
-}
-footer .footer-left {
-  display: flex;
-  width: 40%;
-  margin: 3%;
-}
-footer .footer-left .footer-about-links {
-  display: flex;
-  flex-direction: column;
-}
-footer .footer-left .footer-about-links a {
-  padding-top: 3%;
-}
-footer .footer-right {
-  width: 40%;
-  margin: 3%;
-}
 .about-header {
   height: 60vh;
   width: 90%;
@@ -420,4 +392,32 @@ footer .footer-right {
 }
 .team .lora p {
   padding-top: 14%;
+}
+footer {
+  border-top: 3px inset #96C58E;
+  margin-top: 3%;
+  display: flex;
+}
+footer h4 {
+  font-size: 1rem;
+}
+footer a,
+footer p {
+  font-size: 0.8rem;
+}
+footer .footer-left {
+  display: flex;
+  width: 40%;
+  margin: 3%;
+}
+footer .footer-left .footer-about-links {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-left .footer-about-links a {
+  padding-top: 3%;
+}
+footer .footer-right {
+  width: 40%;
+  margin: 3%;
 }
