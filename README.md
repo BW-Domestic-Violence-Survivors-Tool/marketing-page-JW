@@ -1,6 +1,6 @@
 
 # Marketing page for Freedom Calculator from FreeFrom
-## A Lambda School Build Week Challenge
+A Lambda School Build Week Challenge
 * Released under a [MIT Liscense](LICENSE)
 * [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
