@@ -98,50 +98,41 @@
 .james img, .alex img, .jenn img, .shawn img, .kem img, .lora img {
     width: 200px;
     height: 200px;
-    margin: 3%;
 }
 .team {
-    h2, h3 {
-        margin-top: 3%;
-    }
     h2 {
-        .about-h2();
+        margin: 3% 0;
     }
+    
     .james {
         display: flex;
-        img {
-            margin-left: 3%;
-        }
+        flex-direction: column;
         h3 {
             .about-h3();
         }
-        p {
-            padding-top: 12%;
-            padding-left: 5%;
-        }
+       
     }
     .web {
         display: flex;
         flex-direction: column;
         .alex {
             display: flex;
+            flex-direction: column;
             h3 {
                 .about-h3();
             }
-            p {
-                padding-top: 12%;
-                padding-left: 5%;
-            }
+           
         }
         .jenn {
             display: flex;
+            flex-direction: column;
+            img {
+                padding-top: 2%;
+            }
             h3 {
                 .about-h3();
             }
-            p {
-                padding-top: 12%;
-                padding-left: 3%;
-            }
+            
         }
     }
     .front-end {
@@ -149,36 +140,29 @@
         flex-direction: column;
         .shawn {
             display: flex;
+            flex-direction: column;
             h3 {
                 .about-h3();
-            }
-            p {
-                padding-top: 12%;
-                padding-left: 5%;
             }
         }
         .kem {
             display: flex;
+            flex-direction: column;
+            img {
+                padding-top: 2%;
+            }
             h3 {
                 .about-h3();
-            }
-            img {
-                margin-left: 3%;
-            }
-            p {
-                padding-top: 12%;
-                padding-left: 2%;
             }
         }
     }
     .lora {
         display: flex;
+        flex-direction: column;
         h3 {
             .about-h3();
         }
-        p {
-            padding-top: 12%;       
-        }
+       
     }
    
 }

@@ -164,16 +164,10 @@ p {
 .main-container {
   padding: 0 6%;
 }
-.about-h2 {
-  font-size: 1.6rem;
-  line-height: 1.9rem;
-  padding-top: 8%;
-}
 .about-h3 {
   font-size: 1.4rem;
   line-height: 1.9rem;
-  padding-top: 11%;
-  padding-right: 3%;
+  padding-top: 2%;
 }
 nav {
   height: 10vh;
@@ -293,32 +287,18 @@ nav a {
 .lora img {
   width: 200px;
   height: 200px;
-  margin: 3%;
-}
-.team h2,
-.team h3 {
-  margin-top: 3%;
 }
 .team h2 {
-  font-size: 1.6rem;
-  line-height: 1.9rem;
-  padding-top: 8%;
+  margin: 3% 0;
 }
 .team .james {
   display: flex;
-}
-.team .james img {
-  margin-left: 3%;
+  flex-direction: column;
 }
 .team .james h3 {
   font-size: 1.4rem;
   line-height: 1.9rem;
-  padding-top: 11%;
-  padding-right: 3%;
-}
-.team .james p {
-  padding-top: 12%;
-  padding-left: 5%;
+  padding-top: 2%;
 }
 .team .web {
   display: flex;
@@ -326,29 +306,24 @@ nav a {
 }
 .team .web .alex {
   display: flex;
+  flex-direction: column;
 }
 .team .web .alex h3 {
   font-size: 1.4rem;
   line-height: 1.9rem;
-  padding-top: 11%;
-  padding-right: 3%;
-}
-.team .web .alex p {
-  padding-top: 12%;
-  padding-left: 5%;
+  padding-top: 2%;
 }
 .team .web .jenn {
   display: flex;
+  flex-direction: column;
+}
+.team .web .jenn img {
+  padding-top: 2%;
 }
 .team .web .jenn h3 {
   font-size: 1.4rem;
   line-height: 1.9rem;
-  padding-top: 11%;
-  padding-right: 3%;
-}
-.team .web .jenn p {
-  padding-top: 12%;
-  padding-left: 3%;
+  padding-top: 2%;
 }
 .team .front-end {
   display: flex;
@@ -356,44 +331,33 @@ nav a {
 }
 .team .front-end .shawn {
   display: flex;
+  flex-direction: column;
 }
 .team .front-end .shawn h3 {
   font-size: 1.4rem;
   line-height: 1.9rem;
-  padding-top: 11%;
-  padding-right: 3%;
-}
-.team .front-end .shawn p {
-  padding-top: 12%;
-  padding-left: 5%;
+  padding-top: 2%;
 }
 .team .front-end .kem {
   display: flex;
+  flex-direction: column;
+}
+.team .front-end .kem img {
+  padding-top: 2%;
 }
 .team .front-end .kem h3 {
   font-size: 1.4rem;
   line-height: 1.9rem;
-  padding-top: 11%;
-  padding-right: 3%;
-}
-.team .front-end .kem img {
-  margin-left: 3%;
-}
-.team .front-end .kem p {
-  padding-top: 12%;
-  padding-left: 2%;
+  padding-top: 2%;
 }
 .team .lora {
   display: flex;
+  flex-direction: column;
 }
 .team .lora h3 {
   font-size: 1.4rem;
   line-height: 1.9rem;
-  padding-top: 11%;
-  padding-right: 3%;
-}
-.team .lora p {
-  padding-top: 12%;
+  padding-top: 2%;
 }
 footer {
   border-top: 3px inset #96C58E;
@@ -409,17 +373,28 @@ footer p {
 }
 footer .footer-left {
   display: flex;
-  width: 40%;
+  width: 30%;
   margin: 3%;
 }
 footer .footer-left .footer-about-links {
   display: flex;
   flex-direction: column;
 }
+footer .footer-left .footer-about-links h4 {
+  margin-bottom: 3%;
+}
 footer .footer-left .footer-about-links a {
-  padding-top: 3%;
+  padding: 3%;
+  text-decoration: none;
+}
+footer .footer-middle {
+  width: 30%;
+  margin: 3%;
+}
+footer .footer-middle p {
+  margin-bottom: 3%;
 }
 footer .footer-right {
-  width: 40%;
+  width: 30%;
   margin: 3%;
 }
