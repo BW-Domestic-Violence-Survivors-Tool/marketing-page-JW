@@ -90,6 +90,9 @@
     p {
         background-color: seashell;
         width: 45%;
+        margin-left: 2%;
+        margin-top: 2%;
+        padding: 2%;
     }
 }
 .james img, .alex img, .jenn img, .shawn img, .kem img, .lora img {
@@ -98,37 +101,36 @@
     margin: 3%;
 }
 .team {
-    // margin-left: 3%;
-    display: flex;
-    flex-direction: column;
     h2, h3 {
         margin-top: 3%;
     }
+    h2 {
+        .about-h2();
+    }
     .james {
         display: flex;
-        h2 {
-            .about-h2();
+        img {
+            margin-left: 3%;
         }
         h3 {
             .about-h3();
         }
         p {
-            padding-top: 14%;
+            padding-top: 12%;
+            padding-left: 5%;
         }
     }
     .web {
         display: flex;
         flex-direction: column;
-        h2 {
-            .about-h2();
-        }
         .alex {
             display: flex;
             h3 {
                 .about-h3();
             }
             p {
-                padding-top: 14%;
+                padding-top: 12%;
+                padding-left: 5%;
             }
         }
         .jenn {
@@ -137,7 +139,7 @@
                 .about-h3();
             }
             p {
-                padding-top: 14%;
+                padding-top: 12%;
                 padding-left: 3%;
             }
         }
@@ -145,16 +147,14 @@
     .front-end {
         display: flex;
         flex-direction: column;
-        h2 {
-            .about-h2();
-        }
         .shawn {
             display: flex;
             h3 {
                 .about-h3();
             }
             p {
-                padding-top: 14%;
+                padding-top: 12%;
+                padding-left: 5%;
             }
         }
         .kem {
@@ -166,20 +166,18 @@
                 margin-left: 3%;
             }
             p {
-                padding-top: 14%;
+                padding-top: 12%;
+                padding-left: 2%;
             }
         }
     }
     .lora {
         display: flex;
-        h2 {
-            .about-h2();
-        }
         h3 {
             .about-h3();
         }
         p {
-            padding-top: 14%;
+            padding-top: 12%;       
         }
     }
    
