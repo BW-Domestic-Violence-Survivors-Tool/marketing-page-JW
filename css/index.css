@@ -169,6 +169,10 @@ p {
   line-height: 1.9rem;
   padding-top: 2%;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 nav {
   height: 10vh;
   display: flex;
@@ -279,17 +283,22 @@ nav a {
   margin-top: 2%;
   padding: 2%;
 }
-.james img,
-.alex img,
-.jenn img,
-.shawn img,
-.kem img,
-.lora img {
+.team h2 {
+  margin: 3% 0;
+}
+.team .james img,
+.team .alex img,
+.team .jenn img,
+.team .shawn img,
+.team .kem img,
+.team .lora img {
   width: 200px;
   height: 200px;
 }
-.team h2 {
-  margin: 3% 0;
+.team i {
+  font-size: 1.2rem;
+  padding-right: 0.5rem;
+  color: #96C58E;
 }
 .team .james {
   display: flex;
@@ -299,10 +308,6 @@ nav a {
   font-size: 1.4rem;
   line-height: 1.9rem;
   padding-top: 2%;
-}
-.team .web {
-  display: flex;
-  flex-direction: column;
 }
 .team .web .alex {
   display: flex;
@@ -324,10 +329,6 @@ nav a {
   font-size: 1.4rem;
   line-height: 1.9rem;
   padding-top: 2%;
-}
-.team .front-end {
-  display: flex;
-  flex-direction: column;
 }
 .team .front-end .shawn {
   display: flex;
