@@ -185,9 +185,16 @@ nav {
 nav a {
   text-decoration: none;
   font-size: 1rem;
-  font-family: 'B612', sans-serif;
+  font-family: "B612", sans-serif;
   padding-top: 3%;
   color: #BAE8B9;
+  width: 15%;
+  text-align: center;
+}
+nav .active {
+  border-right: 2px solid #96C58E;
+  border-left: 2px solid #96C58E;
+  border-bottom: 2px solid #96C58E;
 }
 .header-banner {
   height: 40vh;
