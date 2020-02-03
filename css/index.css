@@ -278,10 +278,12 @@ nav .active {
   background-image: url(/images/team.jpg);
   background-size: cover;
   margin: 6% 0;
+  border: 4px inset #96C58E;
 }
 .about-header h1 {
   background-color: seashell;
   text-align: center;
+  padding: 1% 0;
 }
 .about-header p {
   background-color: seashell;
@@ -369,8 +371,9 @@ nav .active {
 }
 footer {
   border-top: 3px inset #96C58E;
-  margin-top: 3%;
   display: flex;
+  width: 85%;
+  margin: auto;
 }
 footer h4 {
   font-size: 1rem;
@@ -394,6 +397,7 @@ footer .footer-left .footer-about-links h4 {
 footer .footer-left .footer-about-links a {
   padding: 3%;
   text-decoration: none;
+  color: #96C58E;
 }
 footer .footer-middle {
   width: 30%;
