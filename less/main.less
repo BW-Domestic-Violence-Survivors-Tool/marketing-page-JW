@@ -1,23 +1,32 @@
 .header-banner {
-  height: 40vh;
+  height: 60vh;
   background-image: url(/images/header.jpg);
   background-size: cover;
   background-position: top 20% left;
-  margin: 3% 0;
+  margin: 6% 0;
+  border: 4px inset @accent-color;
   padding-bottom: 3%;
   .flex-column();
   h1,
   p {
     width: 50%;
     background-color: seashell;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  p {
+    padding: 2%;
   }
   h1 {
     text-align: center;
     padding: 1% 0;
     font-size: 2rem;
   }
+
   button {
     width: 50%;
+    margin-left: 2%;
+    margin-top: 2%;
   }
 }
 .marketing-middle {
@@ -86,7 +95,7 @@
   background-size: cover;
   margin: 6% 0;
   border: 4px inset @accent-color;
-  h2 {
+  h1 {
     background-color: seashell;
     text-align: center;
     padding: 1% 0;
@@ -126,14 +135,15 @@
     }
   }
   .web {
+    display: flex;
     .alex {
-      .flex-column();
+      width: @half-column;
       h3 {
         .about-h3();
       }
     }
     .jenn {
-      .flex-column();
+      width: @half-column;
       img {
         padding-top: 2%;
       }
@@ -143,14 +153,17 @@
     }
   }
   .front-end {
+    display: flex;
     .shawn {
       .flex-column();
+      width: @half-column;
       h3 {
         .about-h3();
       }
     }
     .kem {
       .flex-column();
+      width: @half-column;
       img {
         padding-top: 2%;
       }
@@ -183,6 +196,6 @@
     width: 45%;
     margin-left: 2%;
     margin-top: 2%;
-    padding: 2% 0 2% 50%;
+    padding: 2%;
   }
 }

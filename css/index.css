@@ -173,6 +173,11 @@ p {
   display: flex;
   flex-direction: column;
 }
+.flex-wrapped {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 nav {
   height: 10vh;
   display: flex;
@@ -197,11 +202,12 @@ nav .active {
   border-bottom: 2px solid #96C58E;
 }
 .header-banner {
-  height: 40vh;
+  height: 60vh;
   background-image: url(/images/header.jpg);
   background-size: cover;
   background-position: top 20% left;
-  margin: 3% 0;
+  margin: 6% 0;
+  border: 4px inset #96C58E;
   padding-bottom: 3%;
   display: flex;
   flex-direction: column;
@@ -210,6 +216,11 @@ nav .active {
 .header-banner p {
   width: 50%;
   background-color: seashell;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.header-banner p {
+  padding: 2%;
 }
 .header-banner h1 {
   text-align: center;
@@ -218,6 +229,8 @@ nav .active {
 }
 .header-banner button {
   width: 50%;
+  margin-left: 2%;
+  margin-top: 2%;
 }
 .marketing-middle {
   border-top: 3px inset #96C58E;
@@ -285,7 +298,7 @@ nav .active {
   margin: 6% 0;
   border: 4px inset #96C58E;
 }
-.about-header h2 {
+.about-header h1 {
   background-color: seashell;
   text-align: center;
   padding: 1% 0;
@@ -323,9 +336,11 @@ nav .active {
   line-height: 1.9rem;
   padding-top: 2%;
 }
-.team .web .alex {
+.team .web {
   display: flex;
-  flex-direction: column;
+}
+.team .web .alex {
+  width: 40%;
 }
 .team .web .alex h3 {
   font-size: 1.4rem;
@@ -333,8 +348,7 @@ nav .active {
   padding-top: 2%;
 }
 .team .web .jenn {
-  display: flex;
-  flex-direction: column;
+  width: 40%;
 }
 .team .web .jenn img {
   padding-top: 2%;
@@ -344,9 +358,13 @@ nav .active {
   line-height: 1.9rem;
   padding-top: 2%;
 }
+.team .front-end {
+  display: flex;
+}
 .team .front-end .shawn {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 .team .front-end .shawn h3 {
   font-size: 1.4rem;
@@ -356,6 +374,7 @@ nav .active {
 .team .front-end .kem {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 .team .front-end .kem img {
   padding-top: 2%;
@@ -391,7 +410,7 @@ nav .active {
   width: 45%;
   margin-left: 2%;
   margin-top: 2%;
-  padding: 2% 0 2% 50%;
+  padding: 2%;
 }
 footer {
   border-top: 3px inset #96C58E;
