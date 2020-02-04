@@ -6,10 +6,15 @@
   margin: 3% 0;
   padding-bottom: 3%;
   .flex-column();
-  h2,
+  h1,
   p {
     width: 50%;
     background-color: seashell;
+  }
+  h1 {
+    text-align: center;
+    padding: 1% 0;
+    font-size: 2rem;
   }
   button {
     width: 50%;
@@ -81,7 +86,7 @@
   background-size: cover;
   margin: 6% 0;
   border: 4px inset @accent-color;
-  h1 {
+  h2 {
     background-color: seashell;
     text-align: center;
     padding: 1% 0;
@@ -159,5 +164,25 @@
     h3 {
       .about-h3();
     }
+  }
+}
+// Begine Privacy styling
+.privacy-header {
+  height: 60vh;
+  background-image: url(/images/privacy.jpg);
+  background-size: cover;
+  margin: 6% 0;
+  border: 4px inset @accent-color;
+  h2 {
+    background-color: seashell;
+    text-align: center;
+    padding: 1% 0;
+  }
+  p {
+    background-color: seashell;
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: 2% 0 2% 50%;
   }
 }

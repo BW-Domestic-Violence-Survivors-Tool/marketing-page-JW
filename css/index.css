@@ -206,10 +206,15 @@ nav .active {
   display: flex;
   flex-direction: column;
 }
-.header-banner h2,
+.header-banner h1,
 .header-banner p {
   width: 50%;
   background-color: seashell;
+}
+.header-banner h1 {
+  text-align: center;
+  padding: 1% 0;
+  font-size: 2rem;
 }
 .header-banner button {
   width: 50%;
@@ -280,7 +285,7 @@ nav .active {
   margin: 6% 0;
   border: 4px inset #96C58E;
 }
-.about-header h1 {
+.about-header h2 {
   background-color: seashell;
   text-align: center;
   padding: 1% 0;
@@ -369,11 +374,29 @@ nav .active {
   line-height: 1.9rem;
   padding-top: 2%;
 }
+.privacy-header {
+  height: 60vh;
+  background-image: url(/images/privacy.jpg);
+  background-size: cover;
+  margin: 6% 0;
+  border: 4px inset #96C58E;
+}
+.privacy-header h2 {
+  background-color: seashell;
+  text-align: center;
+  padding: 1% 0;
+}
+.privacy-header p {
+  background-color: seashell;
+  width: 45%;
+  margin-left: 2%;
+  margin-top: 2%;
+  padding: 2% 0 2% 50%;
+}
 footer {
   border-top: 3px inset #96C58E;
+  margin-top: 3%;
   display: flex;
-  width: 85%;
-  margin: auto;
 }
 footer h4 {
   font-size: 1rem;
