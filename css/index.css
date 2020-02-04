@@ -445,6 +445,40 @@ nav .nav-login:hover {
 .policy ul li {
   margin-bottom: 0.5%;
 }
+.resources-header {
+  height: 70vh;
+  background-image: url(/images/resources.jpg);
+  background-size: cover;
+  background-position: top 40% left;
+  margin: 6% 0;
+  border: 4px inset #96C58E;
+  border-radius: 6%;
+  padding: 1% 2%;
+}
+.resources-header h1 {
+  background-color: seashell;
+  text-align: center;
+  padding: 1% 0;
+}
+.resources-header p {
+  background-color: seashell;
+  width: 45%;
+  margin-left: 2%;
+  margin-top: 2%;
+  padding: 2%;
+}
+.resources-main h3 {
+  margin: 3% 0;
+}
+.resources-main p {
+  line-height: 1.4rem;
+}
+.resources-main a {
+  color: #000000;
+}
+.resources-main a:hover {
+  color: #9BE8FF;
+}
 footer {
   border-top: 3px inset #96C58E;
   margin-top: 3%;
