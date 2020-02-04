@@ -202,16 +202,16 @@ nav a {
   text-align: center;
 }
 nav .nav-login {
-  background-color: #BAE8B9;
-  color: seashell;
+  background-color: #96C58E;
+  color: #ffffff;
   border-radius: 12px;
 }
 nav .nav-login:hover {
-  background-color: #96C58E;
-  color: #ffffff;
+  background-color: #BAE8B9;
+  color: seashell;
 }
 .header-banner {
-  height: 60vh;
+  height: 70vh;
   background-image: url(/images/header.jpg);
   background-size: cover;
   background-position: top 20% left;
@@ -237,10 +237,17 @@ nav .nav-login:hover {
   padding: 1% 0;
   font-size: 2rem;
 }
-.header-banner button {
+.header-banner .header-button {
   width: 50%;
-  margin-left: 2%;
-  margin-top: 2%;
+  margin: 2% 2% 6%;
+  background-color: #96C58E;
+  color: #ffffff;
+  border-radius: 12px;
+  font-size: 1.4rem;
+}
+.header-banner .header-button:hover {
+  background-color: #BAE8B9;
+  color: seashell;
 }
 .marketing-middle {
   border-top: 3px inset #96C58E;
@@ -302,7 +309,7 @@ nav .nav-login:hover {
   margin-top: 3%;
 }
 .about-header {
-  height: 60vh;
+  height: 70vh;
   background-image: url(/images/team.jpg);
   background-size: cover;
   margin: 6% 0;
@@ -402,7 +409,7 @@ nav .nav-login:hover {
   padding-top: 2%;
 }
 .privacy-header {
-  height: 60vh;
+  height: 70vh;
   background-image: url(/images/privacy.jpg);
   background-size: contain;
   background-position: top 40% left;
