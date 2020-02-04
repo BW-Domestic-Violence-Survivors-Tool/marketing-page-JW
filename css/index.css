@@ -396,7 +396,8 @@ nav .active {
 .privacy-header {
   height: 60vh;
   background-image: url(/images/privacy.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-position: top 40% left;
   margin: 6% 0;
   border: 4px inset #96C58E;
 }
@@ -411,6 +412,24 @@ nav .active {
   margin-left: 2%;
   margin-top: 2%;
   padding: 2%;
+}
+.policy h3,
+.policy h4 {
+  padding: 1% 0;
+}
+.policy p {
+  padding-bottom: 1%;
+  line-height: 1.2rem;
+}
+.policy p .effective {
+  font-weight: bold;
+}
+.policy ul {
+  list-style: disc inside;
+  padding-bottom: 1%;
+}
+.policy ul li {
+  margin-bottom: 0.5%;
 }
 footer {
   border-top: 3px inset #96C58E;

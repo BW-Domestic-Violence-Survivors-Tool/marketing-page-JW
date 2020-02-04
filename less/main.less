@@ -183,7 +183,8 @@
 .privacy-header {
   height: 60vh;
   background-image: url(/images/privacy.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-position: top 40% left;
   margin: 6% 0;
   border: 4px inset @accent-color;
   h2 {
@@ -197,5 +198,22 @@
     margin-left: 2%;
     margin-top: 2%;
     padding: 2%;
+  }
+}
+.policy {
+  h3, h4 {
+    padding: 1% 0;
+  }
+  p{
+    padding-bottom: 1%;
+    line-height: 1.2rem;
+    
+  }
+  ul {
+    list-style: disc inside;
+    padding-bottom: 1%;
+    li {
+      margin-bottom: 0.5%;
+    }
   }
 }
