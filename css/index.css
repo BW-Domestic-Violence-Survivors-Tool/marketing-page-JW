@@ -187,6 +187,11 @@ nav {
   top: 0;
   background-color: seashell;
 }
+nav .active {
+  border-right: 2px solid #96C58E;
+  border-left: 2px solid #96C58E;
+  border-bottom: 2px solid #96C58E;
+}
 nav a {
   text-decoration: none;
   font-size: 1rem;
@@ -196,10 +201,9 @@ nav a {
   width: 15%;
   text-align: center;
 }
-nav .active {
-  border-right: 2px solid #96C58E;
-  border-left: 2px solid #96C58E;
-  border-bottom: 2px solid #96C58E;
+nav .nav-login {
+  background-color: #BAE8B9;
+  color: seashell;
 }
 .header-banner {
   height: 60vh;
@@ -420,9 +424,6 @@ nav .active {
 .policy p {
   padding-bottom: 1%;
   line-height: 1.2rem;
-}
-.policy p .effective {
-  font-weight: bold;
 }
 .policy ul {
   list-style: disc inside;

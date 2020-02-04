@@ -6,6 +6,11 @@ nav {
   position: sticky;
   top: 0;
   background-color: seashell;
+  .active {
+    border-right: 2px solid @accent-color;
+    border-left: 2px solid @accent-color;
+    border-bottom: 2px solid @accent-color;
+  }
   a {
     text-decoration: none;
     font-size: 1rem;
@@ -14,11 +19,11 @@ nav {
     color: @action-color;
     width: 15%;
     text-align: center;
+    
   }
-  .active {
-   border-right: 2px solid @accent-color;
-   border-left: 2px solid @accent-color;
-   border-bottom: 2px solid @accent-color;
 
+  .nav-login {
+    background-color: @action-color;
+    color: seashell;
   }
 }
