@@ -1,12 +1,13 @@
 
 # Marketing page for Freedom Calculator from FreeFrom
-## A Lambda School Build Week Challenge
-Released under a [MIT Liscense](LICENSE)
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+A Lambda School Build Week Challenge
+* Released under a [MIT Liscense](LICENSE)
+* [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/designed-in-etch-a-sketch.svg)](https://forthebadge.com)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/23258144-df03-4b92-a63b-552348db23b8/deploy-status)](https://app.netlify.com/sites/freedomcalculatorfromfreefrom/deploys)
+* [![Netlify Status](https://api.netlify.com/api/v1/badges/23258144-df03-4b92-a63b-552348db23b8/deploy-status)](https://app.netlify.com/sites/freedomcalculatorfromfreefrom/deploys)
+
 Find site at: https://freedomcalculatorfromfreefrom.netlify.com/
 
 ## Distingushed Team Memebers

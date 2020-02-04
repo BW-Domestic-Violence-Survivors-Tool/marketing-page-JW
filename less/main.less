@@ -1,101 +1,270 @@
+// Begine Index Styling
 .header-banner {
-    height: 40vh;
-    background-image: url(/images/header.jpg);
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    margin: 3% 0;
-    padding-bottom: 3%;
-    display: flex;
-    flex-direction: column;
-    h2, p, button {
-        width: 60%;
-    }
+  height: 70vh;
+  background-image: url(/images/header.jpg);
+  background-size: cover;
+  background-position: top 20% left;
+  margin: 6% 0;
+  border: 4px inset @accent-color;
+  border-radius: 6%;
+
+  padding-bottom: 3%;
+  .flex-column();
+  h1,
+  p {
+    width: 50%;
+    background-color: seashell;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  p {
+    padding: 2%;
+  }
+  h1 {
+    text-align: center;
+    padding: 1% 0;
+    font-size: 2rem;
+  }
+
+  .header-button {
+    width: 50%;
+    margin: 2% 2% 6%;
+    background-color: @accent-color;
+    color: #ffffff;
+    border-radius: 12px;
+    font-size: 1.4rem;
+  }
+  .header-button:hover {
+    background-color: @action-color;
+    color: seashell;
+  }
 }
 .marketing-middle {
-    border-top: @regular-border;
+  border-top: @regular-border;
+  .flex-column();
+  h2 {
+    margin-top: 3%;
+  }
+  p {
+    margin-top: 2%;
+  }
+  .middle-img1 {
     display: flex;
-    flex-direction: column;
-    h2 {
-        margin-top: 3%;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    img {
+      width: 300px;
+      height: 300px;
     }
     p {
-        margin-top: 2%;
+      width: 50%;
+      padding-left: 3%;
     }
-    .middle-img1 {
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 3%;
-        img {
-            width: 300px;
-            height: 300px;
-        }
-        p {
-            width: 50%;
-            padding-left: 3%;
-        }
-    }
-    .middle-img2 {
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 3%;
-        img {
-            width: 300px;
-            height: 300px;
-        }
-        p {
-            width: 50%;
-            padding-left: 3%;
-        }
-    }
-}
-.features-headline{
-    border-top: @regular-border;
-    margin-top: 3%;
+  }
+  .middle-img2 {
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 3%;
-    text-align: center;
-    height: fit-content;
-    h2 {
-        font-size: 2rem;
+    img {
+      width: 300px;
+      height: 300px;
     }
+    p {
+      width: 50%;
+      padding-left: 3%;
+    }
+  }
+}
+.features-headline {
+  border-top: @regular-border;
+  margin-top: 3%;
+  padding-top: 3%;
+  text-align: center;
+  height: fit-content;
+  h2 {
+    font-size: 2rem;
+  }
 }
 .features {
-    display: flex;
-    justify-content: space-around;
-       .feature-box {
-        width: 25%;
-        padding-top: 5%;
-        margin-right: 4%;
-        p{
-            margin-top: 3%;
-        }
+  display: flex;
+  justify-content: space-around;
+  .feature-box {
+    width: 25%;
+    padding-top: 5%;
+    margin-right: 4%;
+    p {
+      margin-top: 3%;
     }
+  }
 }
-footer {
-    border-top: @regular-border;
-    margin-top: 3%;
-    display: flex;
-    // justify-content: space-around;
-    h4 {
-        font-size: 1rem;
-    }
-    a, p {
-        font-size: 0.8rem;
-    }
-    .footer-left{
-        display: flex;
-        width: 40%;
-        margin: 3%;
-        .footer-about-links{
-            display: flex;
-            flex-direction: column;
-            a {
-                padding-top: 3%;
-            }
-        }
-    }
-    .footer-right {
-        width: 40%;
-        margin: 3%;
-    }
+
+//begin about.html styling
+.about-header {
+  height: 70vh;
+  background-image: url(/images/team.jpg);
+  background-size: cover;
+  margin: 6% 0;
+  border: 4px inset @accent-color;
+  border-radius: 6%;
+  h1 {
+    background-color: seashell;
+    text-align: center;
+    padding: 1% 0;
+    margin: 2%;
+  }
+  p {
+    background-color: seashell;
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: 2%;
+  }
 }
+
+.team {
+  h2 {
+    margin: 3% 0;
+  }
+  .james img,
+  .alex img,
+  .jenn img,
+  .shawn img,
+  .kem img,
+  .lora img {
+    width: 200px;
+    height: 200px;
+    border: 4px inset @accent-color;
+    border-radius: 50%;
+  }
+  i {
+    font-size: 1.2rem;
+    padding-right: 0.5rem;
+    color: @accent-color;
+  }
+
+  .james {
+    .flex-column();
+    h3 {
+      .about-h3();
+    }
+  }
+  .web {
+    display: flex;
+    .alex {
+      width: @half-column;
+      h3 {
+        .about-h3();
+      }
+    }
+    .jenn {
+      width: @half-column;
+      h3 {
+        .about-h3();
+      }
+    }
+  }
+  .front-end {
+    display: flex;
+    .shawn {
+      .flex-column();
+      width: @half-column;
+      h3 {
+        .about-h3();
+      }
+    }
+    .kem {
+      .flex-column();
+      width: @half-column;
+      h3 {
+        .about-h3();
+      }
+    }
+  }
+  .lora {
+    .flex-column();
+    h3 {
+      .about-h3();
+    }
+  }
+}
+// Begine Privacy styling
+.privacy-header {
+  height: 70vh;
+  background-image: url(/images/privacy.jpg);
+  background-size: contain;
+  background-position: top 40% left;
+  margin: 6% 0;
+  border: 4px inset @accent-color;
+  border-radius: 6%;
+  padding: 1% 2%;
+
+
+  h2 {
+    background-color: seashell;
+    text-align: center;
+    padding: 1% 0;
+  }
+  p {
+    background-color: seashell;
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: 2%;
+  }
+}
+.policy {
+  h3,
+  h4 {
+    padding: 1% 0;
+  }
+  p {
+    padding-bottom: 1%;
+    line-height: 1.2rem;
+  }
+  ul {
+    list-style: disc inside;
+    padding-bottom: 1%;
+    li {
+      margin-bottom: 0.5%;
+    }
+  }
+}
+// Begin resources.html styling
+.resources-header{
+  height: 70vh;
+  background-image: url(/images/resources.jpg);
+  background-size: cover;
+  background-position: top 40% left;
+  margin: 6% 0;
+  border: 4px inset @accent-color;
+  border-radius: 6%;
+  padding: 1% 2%;
+
+
+  h1 {
+    background-color: seashell;
+    text-align: center;
+    padding: 1% 0;
+  }
+  p {
+    background-color: seashell;
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: 2%;
+  }
+  }
+  .resources-main {
+    h3{
+      margin: 3% 0;
+    }
+    p {
+      line-height: 1.4rem;
+    }
+    a{
+      color: #000000;
+    }
+    a:hover {
+      color: @heading-color;
+    }
+  }
