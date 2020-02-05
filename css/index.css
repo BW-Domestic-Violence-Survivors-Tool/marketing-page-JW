@@ -455,10 +455,23 @@ nav .nav-login:hover {
   border-radius: 6%;
   padding: 1% 2%;
 }
+@media (max-width: 500px) {
+  .resources-header {
+    height: 20vh;
+    background-image: none;
+    border: none;
+  }
+}
 .resources-header h1 {
   background-color: seashell;
   text-align: center;
   padding: 1% 0;
+}
+@media (max-width: 500px) {
+  .resources-header h1 {
+    background-color: none;
+    padding: 0;
+  }
 }
 .resources-header p {
   background-color: seashell;
@@ -467,11 +480,24 @@ nav .nav-login:hover {
   margin-top: 2%;
   padding: 2%;
 }
+@media (max-width: 500px) {
+  .resources-header p {
+    background-color: none;
+    padding: 0;
+    width: auto;
+    padding: 3% 0;
+  }
+}
 .resources-main h3 {
   margin: 3% 0;
 }
 .resources-main p {
   line-height: 1.4rem;
+}
+@media (max-width: 500px) {
+  .resources-main p {
+    padding-bottom: 2%;
+  }
 }
 .resources-main a {
   color: #000000;
