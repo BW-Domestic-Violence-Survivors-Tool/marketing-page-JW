@@ -141,11 +141,22 @@
   margin: 6% 0;
   border: 4px inset @accent-color;
   border-radius: 6%;
+  @media @phone {
+    height: 40vh;
+    background-image: none;
+    align-items: center;
+    border: none;
+    margin: 4% 0;;
+  }
   h1 {
     background-color: seashell;
     text-align: center;
     padding: 1% 0;
     margin: 2%;
+    @media @phone {
+      width: auto;
+      font-size: 1.5rem;
+    }
   }
   p {
     background-color: seashell;
@@ -153,6 +164,10 @@
     margin-left: 2%;
     margin-top: 2%;
     padding: 2%;
+    @media @phone {
+      width: auto;
+      font-size: 1.2rem;
+    }
   }
 }
 
@@ -179,20 +194,33 @@
 
   .james {
     .flex-column();
+    @media @phone {
+      align-items: center;
+    }
     h3 {
       .about-h3();
     }
   }
   .web {
     display: flex;
+    @media @phone {
+      flex-direction: column;
+      align-items: center;
+    }
     .alex {
       width: @half-column;
+      @media @phone {
+        width: auto;
+      }
       h3 {
         .about-h3();
       }
     }
     .jenn {
       width: @half-column;
+      @media @phone {
+        width: auto;
+      }
       h3 {
         .about-h3();
       }
@@ -200,9 +228,16 @@
   }
   .front-end {
     display: flex;
+    @media @phone {
+      flex-direction: column;
+      align-items: center;
+    }
     .shawn {
       .flex-column();
       width: @half-column;
+      @media @phone {
+        width: auto;
+      }
       h3 {
         .about-h3();
       }
@@ -210,6 +245,9 @@
     .kem {
       .flex-column();
       width: @half-column;
+      @media @phone {
+        width: auto;
+      }
       h3 {
         .about-h3();
       }
@@ -217,6 +255,9 @@
   }
   .lora {
     .flex-column();
+    @media @phone {
+      align-items: center;
+    }
     h3 {
       .about-h3();
     }

@@ -368,11 +368,26 @@ nav .nav-login:hover {
   border: 4px inset #96C58E;
   border-radius: 6%;
 }
+@media (max-width: 500px) {
+  .about-header {
+    height: 40vh;
+    background-image: none;
+    align-items: center;
+    border: none;
+    margin: 4% 0;
+  }
+}
 .about-header h1 {
   background-color: seashell;
   text-align: center;
   padding: 1% 0;
   margin: 2%;
+}
+@media (max-width: 500px) {
+  .about-header h1 {
+    width: auto;
+    font-size: 1.5rem;
+  }
 }
 .about-header p {
   background-color: seashell;
@@ -380,6 +395,12 @@ nav .nav-login:hover {
   margin-left: 2%;
   margin-top: 2%;
   padding: 2%;
+}
+@media (max-width: 500px) {
+  .about-header p {
+    width: auto;
+    font-size: 1.2rem;
+  }
 }
 .team h2 {
   margin: 3% 0;
@@ -404,6 +425,11 @@ nav .nav-login:hover {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 500px) {
+  .team .james {
+    align-items: center;
+  }
+}
 .team .james h3 {
   font-size: 1.4rem;
   line-height: 1.9rem;
@@ -412,8 +438,19 @@ nav .nav-login:hover {
 .team .web {
   display: flex;
 }
+@media (max-width: 500px) {
+  .team .web {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .team .web .alex {
   width: 40%;
+}
+@media (max-width: 500px) {
+  .team .web .alex {
+    width: auto;
+  }
 }
 .team .web .alex h3 {
   font-size: 1.4rem;
@@ -423,6 +460,11 @@ nav .nav-login:hover {
 .team .web .jenn {
   width: 40%;
 }
+@media (max-width: 500px) {
+  .team .web .jenn {
+    width: auto;
+  }
+}
 .team .web .jenn h3 {
   font-size: 1.4rem;
   line-height: 1.9rem;
@@ -431,10 +473,21 @@ nav .nav-login:hover {
 .team .front-end {
   display: flex;
 }
+@media (max-width: 500px) {
+  .team .front-end {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .team .front-end .shawn {
   display: flex;
   flex-direction: column;
   width: 40%;
+}
+@media (max-width: 500px) {
+  .team .front-end .shawn {
+    width: auto;
+  }
 }
 .team .front-end .shawn h3 {
   font-size: 1.4rem;
@@ -446,6 +499,11 @@ nav .nav-login:hover {
   flex-direction: column;
   width: 40%;
 }
+@media (max-width: 500px) {
+  .team .front-end .kem {
+    width: auto;
+  }
+}
 .team .front-end .kem h3 {
   font-size: 1.4rem;
   line-height: 1.9rem;
@@ -454,6 +512,11 @@ nav .nav-login:hover {
 .team .lora {
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 500px) {
+  .team .lora {
+    align-items: center;
+  }
 }
 .team .lora h3 {
   font-size: 1.4rem;
