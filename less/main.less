@@ -7,23 +7,38 @@
   margin: 6% 0;
   border: 4px inset @accent-color;
   border-radius: 6%;
-
-  padding-bottom: 3%;
+    padding-bottom: 3%;
   .flex-column();
+  @media @phone {
+    height: 40vh;
+    background-image: none;
+    border: none;
+  } 
   h1,
   p {
     width: 50%;
     background-color: seashell;
     margin-left: 2%;
     margin-top: 1%;
+    @media @phone {
+      background-color: none;
+      padding: 0;
+      width: auto;
+    }
   }
   p {
     padding: 1%;
+    @media @phone {
+      font-size: 0.8rem;
+    }
   }
   h1 {
     text-align: center;
     padding: 1% 0;
     font-size: 2rem;
+    @media @phone {
+      font-size: 1.1rem;
+    }
   }
 
   .header-button {
@@ -33,6 +48,9 @@
     color: #ffffff;
     border-radius: 12px;
     font-size: 1.4rem;
+    @media @phone {
+      width: auto,
+    }
   }
   .header-button:hover {
     background-color: @action-color;
@@ -48,10 +66,18 @@
     background-image: url(/images/calculator.png);
     background-repeat: no-repeat;
     background-size: contain;
+    @media @phone {
+      background-image: none;
+      align-items: center;
+    }
     p {
       width: 50%;
       padding-left: 3%;
       margin-top: 2%;
+      @media @phone {
+        width: auto;
+        font-size: 0.8rem;
+      }
     }
   }
 }
@@ -63,6 +89,8 @@
   height: fit-content;
   h2 {
     font-size: 2rem;
+    @media @phone {
+    }
   }
 }
 .features {
@@ -70,10 +98,16 @@
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
+  @media @phone {
+    flex-direction: column;
+  }
   .feature-box {
     width: 40%;
     padding-top: 5%;
     margin-right: 4%;
+    @media @phone {
+      width: auto;
+    }
     h2{
       font-size: 3rem;
       text-align: center;
