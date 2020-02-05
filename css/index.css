@@ -261,10 +261,6 @@ nav .nav-login:hover {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.marketing-middle .marketing-copy h2 {
-  margin-top: 3%;
-  align-items: center;
-}
 .marketing-middle .marketing-copy p {
   width: 50%;
   padding-left: 3%;
@@ -283,14 +279,34 @@ nav .nav-login:hover {
 .features {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
 }
 .features .feature-box {
-  width: 25%;
+  width: 40%;
   padding-top: 5%;
   margin-right: 4%;
 }
+.features .feature-box h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.features .feature-box h3 {
+  padding: 2% 0;
+  align-items: center;
+}
 .features .feature-box p {
   margin-top: 3%;
+  padding-bottom: 5%;
+}
+.features .feature-box ul {
+  padding-bottom: 1%;
+}
+.features .feature-box ul li {
+  padding-bottom: 2%;
+  margin-left: 0;
+  text-align: center;
 }
 .about-header {
   height: 70vh;

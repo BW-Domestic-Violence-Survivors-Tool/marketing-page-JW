@@ -48,10 +48,6 @@
     background-image: url(/images/calculator.png);
     background-repeat: no-repeat;
     background-size: contain;
-    h2 {
-      margin-top: 3%;
-      align-items: center;
-    }
     p {
       width: 50%;
       padding-left: 3%;
@@ -72,12 +68,33 @@
 .features {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
   .feature-box {
-    width: 25%;
+    width: 40%;
     padding-top: 5%;
     margin-right: 4%;
+    h2{
+      font-size: 3rem;
+      text-align: center;
+      padding-bottom: 3%;
+    }
+    h3 {
+      padding: 2% 0;
+      align-items: center;
+      
+    }
     p {
       margin-top: 3%;
+      padding-bottom: 5%;
+    }
+    ul {
+      padding-bottom: 1%;
+      li {
+        padding-bottom: 2%;
+        margin-left: 0;
+        text-align: center;
+      }
     }
   }
 }
