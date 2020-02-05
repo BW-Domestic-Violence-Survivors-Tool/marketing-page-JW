@@ -387,6 +387,7 @@ nav .nav-login:hover {
   .about-header h1 {
     width: auto;
     font-size: 1.5rem;
+    padding-bottom: 2%;
   }
 }
 .about-header p {
@@ -405,6 +406,13 @@ nav .nav-login:hover {
 .team h2 {
   margin: 3% 0;
 }
+@media (max-width: 500px) {
+  .team h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+}
 .team .james img,
 .team .alex img,
 .team .jenn img,
@@ -416,10 +424,26 @@ nav .nav-login:hover {
   border: 4px inset #96C58E;
   border-radius: 50%;
 }
+@media (max-width: 500px) {
+  .team .james img,
+  .team .alex img,
+  .team .jenn img,
+  .team .shawn img,
+  .team .kem img,
+  .team .lora img {
+    margin: 2% 0;
+  }
+}
 .team i {
   font-size: 1.2rem;
   padding-right: 0.5rem;
   color: #96C58E;
+}
+@media (max-width: 500px) {
+  .team i {
+    font-size: 1.8rem;
+    padding-bottom: 5%;
+  }
 }
 .team .james {
   display: flex;
@@ -428,6 +452,7 @@ nav .nav-login:hover {
 @media (max-width: 500px) {
   .team .james {
     align-items: center;
+    padding-bottom: 5%;
   }
 }
 .team .james h3 {
@@ -450,6 +475,10 @@ nav .nav-login:hover {
 @media (max-width: 500px) {
   .team .web .alex {
     width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
   }
 }
 .team .web .alex h3 {
@@ -463,6 +492,10 @@ nav .nav-login:hover {
 @media (max-width: 500px) {
   .team .web .jenn {
     width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
   }
 }
 .team .web .jenn h3 {
@@ -487,6 +520,10 @@ nav .nav-login:hover {
 @media (max-width: 500px) {
   .team .front-end .shawn {
     width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
   }
 }
 .team .front-end .shawn h3 {
@@ -502,6 +539,10 @@ nav .nav-login:hover {
 @media (max-width: 500px) {
   .team .front-end .kem {
     width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
   }
 }
 .team .front-end .kem h3 {
@@ -516,6 +557,7 @@ nav .nav-login:hover {
 @media (max-width: 500px) {
   .team .lora {
     align-items: center;
+    padding-bottom: 5%;
   }
 }
 .team .lora h3 {
