@@ -187,10 +187,22 @@ nav {
   top: 0;
   background-color: seashell;
 }
+@media (max-width: 500px) {
+  nav {
+    height: 40vh;
+    flex-direction: column;
+  }
+}
 nav .active {
   border-right: 2px solid #96C58E;
   border-left: 2px solid #96C58E;
   border-bottom: 2px solid #96C58E;
+}
+@media (max-width: 500px) {
+  nav .active {
+    border: 0;
+    color: #8A8BBC;
+  }
 }
 nav a {
   text-decoration: none;
@@ -575,6 +587,13 @@ nav .nav-login:hover {
   border-radius: 6%;
   padding: 1% 2%;
 }
+@media (max-width: 500px) {
+  .privacy-header {
+    height: 30vh;
+    background-image: none;
+    border: none;
+  }
+}
 .privacy-header h2 {
   background-color: seashell;
   text-align: center;
@@ -586,6 +605,12 @@ nav .nav-login:hover {
   margin-left: 2%;
   margin-top: 2%;
   padding: 2%;
+}
+@media (max-width: 500px) {
+  .privacy-header p {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 .policy h3,
 .policy h4 {
@@ -672,6 +697,13 @@ nav .nav-login:hover {
   border-radius: 6%;
   padding: 1% 2%;
 }
+@media (max-width: 500px) {
+  .terms-header {
+    height: 40vh;
+    background-image: none;
+    border: none;
+  }
+}
 .terms-header h1 {
   background-color: seashell;
   text-align: center;
@@ -683,6 +715,12 @@ nav .nav-login:hover {
   margin-left: 2%;
   margin-top: 2%;
   padding: 2%;
+}
+@media (max-width: 500px) {
+  .terms-header p {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 .terms-header a {
   text-decoration: none;
@@ -704,6 +742,48 @@ nav .nav-login:hover {
   border: 4px inset #96C58E;
   border-radius: 6%;
   padding: 1% 2%;
+}
+@media (max-width: 500px) {
+  .credits-header {
+    height: 40vh;
+    background-image: none;
+    border: none;
+  }
+}
+.credits-header h1 {
+  background-color: seashell;
+  text-align: center;
+  padding: 1% 0;
+}
+.credits-header p {
+  background-color: seashell;
+  width: 45%;
+  margin-left: 2%;
+  margin-top: 2%;
+  padding: 2%;
+}
+@media (max-width: 500px) {
+  .credits-header p {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.credits-header a {
+  text-decoration: none;
+  color: #96C58E;
+}
+.credits-header a:hover {
+  color: #9BE8FF;
+}
+.credits-main {
+  text-align: center;
+}
+.credits-main h2 {
+  padding-bottom: 2%;
+}
+.credits-main p {
+  line-height: 1.4rem;
+  margin-bottom: 4%;
 }
 footer {
   border-top: 3px inset #96C58E;

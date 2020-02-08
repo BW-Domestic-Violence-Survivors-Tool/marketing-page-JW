@@ -6,10 +6,18 @@ nav {
   position: sticky;
   top: 0;
   background-color: seashell;
+  @media @phone {
+    height: 40vh;
+    flex-direction: column;
+  }
   .active {
     border-right: 2px solid @accent-color;
     border-left: 2px solid @accent-color;
     border-bottom: 2px solid @accent-color;
+    @media @phone {
+      border: 0;
+      color: @footer-color;
+    }
   }
   a {
     text-decoration: none;
