@@ -187,10 +187,22 @@ nav {
   top: 0;
   background-color: seashell;
 }
+@media (max-width: 500px) {
+  nav {
+    height: 40vh;
+    flex-direction: column;
+  }
+}
 nav .active {
   border-right: 2px solid #96C58E;
   border-left: 2px solid #96C58E;
   border-bottom: 2px solid #96C58E;
+}
+@media (max-width: 500px) {
+  nav .active {
+    border: 0;
+    color: #8A8BBC;
+  }
 }
 nav a {
   text-decoration: none;
