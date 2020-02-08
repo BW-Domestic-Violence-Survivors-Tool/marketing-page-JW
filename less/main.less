@@ -304,6 +304,11 @@
   border: 4px inset @accent-color;
   border-radius: 6%;
   padding: 1% 2%;
+  @media @phone {
+    height: 30vh;
+    background-image: none;
+    border: none;
+  }
 
   h2 {
     background-color: seashell;
@@ -316,6 +321,10 @@
     margin-left: 2%;
     margin-top: 2%;
     padding: 2%;
+    @media @phone {
+      width: 100%;
+      margin-left: 0;
+    }
   }
 }
 .policy {
@@ -400,6 +409,11 @@
   border: 4px inset @accent-color;
   border-radius: 6%;
   padding: 1% 2%;
+  @media @phone {
+    height: 40vh;
+    background-image: none;
+    border: none;
+  }
 
   h1 {
     background-color: seashell;
@@ -412,6 +426,10 @@
     margin-left: 2%;
     margin-top: 2%;
     padding: 2%;
+    @media @phone {
+      width: 100%;
+      margin-left: 0;
+    }
   }
   a {
     text-decoration: none;
@@ -437,6 +455,11 @@
   border: 4px inset @accent-color;
   border-radius: 6%;
   padding: 1% 2%;
+  @media @phone {
+    height: 40vh;
+    background-image: none;
+    border: none;
+  }
   h1 {
     background-color: seashell;
     text-align: center;
@@ -448,6 +471,10 @@
     margin-left: 2%;
     margin-top: 2%;
     padding: 2%;
+    @media @phone {
+      width: 100%;
+      margin-left: 0;
+    }
   }
   a {
     text-decoration: none;
@@ -458,8 +485,12 @@
   }
 }
 .credits-main {
+  text-align: center;
+  h2 {
+    padding-bottom: 2%;
+  }
   p {
-    line-height: 1.2rem;
+    line-height: 1.4rem;
     margin-bottom: 4%;
   }
 }
