@@ -705,6 +705,29 @@ nav .nav-login:hover {
   border-radius: 6%;
   padding: 1% 2%;
 }
+.credits-header h1 {
+  background-color: seashell;
+  text-align: center;
+  padding: 1% 0;
+}
+.credits-header p {
+  background-color: seashell;
+  width: 45%;
+  margin-left: 2%;
+  margin-top: 2%;
+  padding: 2%;
+}
+.credits-header a {
+  text-decoration: none;
+  color: #96C58E;
+}
+.credits-header a:hover {
+  color: #9BE8FF;
+}
+.credits-main p {
+  line-height: 1.2rem;
+  margin-bottom: 4%;
+}
 footer {
   border-top: 3px inset #96C58E;
   margin-top: 3%;
