@@ -25,8 +25,8 @@ Find site at: https://freedomcalculatorfromfreefrom.netlify.com/
 ### Project Lead
 James Bishop | [@jambis](https://github.com/jambis)                  
 ### Unit 1 - Web UI
-Alexander Couts | [@AvanteGov] (https://github.com/AvanteGov)                  
-Jennifer Weiner | [@weinerjm14] (https://github.com/weinerjm14)                    
+Alexander Couts | [@AvanteGov](https://github.com/AvanteGov)                  
+Jennifer Weiner | [@weinerjm14](https://github.com/weinerjm14)                    
 ### Unit 2 - React I
 Shawn Batson | [@ShawnBatson](https://github.com/ShawnBatson)                              
 ### Unit 3 - React II
