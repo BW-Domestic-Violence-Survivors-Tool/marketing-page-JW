@@ -415,6 +415,11 @@ nav .nav-login:hover {
     font-size: 1.2rem;
   }
 }
+.team {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
 .team h2 {
   margin: 3% 0;
 }
